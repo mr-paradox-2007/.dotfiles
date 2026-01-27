@@ -1,0 +1,21 @@
+# --- Micro Editor Junk ---
+# Ignore internal backups and state files
+micro/backups/
+micro/buffers/
+micro/targets/
+
+# --- System & OS Junk ---
+# Thumbnail cache (don't sync these with your wallpapers)
+.thumbnails/
+.Thumbnails/
+Thumbs.db
+Desktop.ini
+
+# Common Linux trash
+*~
+*.swp
+*.tmp
+.DS_Store
+
+# --- Git specifics ---
+.git/

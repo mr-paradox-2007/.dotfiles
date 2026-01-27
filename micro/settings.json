@@ -1,0 +1,9 @@
+{
+    "autoclose": false,
+    "autocomplete": false,
+    "colorcolumn": 80,
+    "colorscheme": "cmc-16",
+    "mkparents": true,
+    "saveundo": true,
+    "tabstospaces": true
+}
