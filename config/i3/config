@@ -188,3 +188,35 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# ==========================================
+# --- MY CUSTOM CONFIG & AUTOSTART ---
+# ==========================================
+
+# 1. Start Power Management
+exec --no-startup-id tlp start
+
+# 2. Ear-Saver: Force Volume to 10% on Startup
+exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ 10%
+
+# 3. Open Thunar (Files) with Ctrl + Alt + E
+bindsym Control+Mod1+e exec --no-startup-id thunar
+
+# 4. Open Btop (Monitor) with Win + Escape
+bindsym $mod+Escape exec --no-startup-id kitty btop
+
+# ==========================================
+# --- EXTERNAL KEYBOARD SHORTCUTS ---
+# ==========================================
+
+# Audio: Ctrl + Alt + Up/Down
+bindsym Control+Mod1+Up exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym Control+Mod1+Down exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+# Laptop Brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%- --min-value=15
+bindsym Shift+XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%+
+
+# External Keyboard Brightness
+bindsym $mod+Mod1+Up exec --no-startup-id brightnessctl set 10%+
+bindsym $mod+Mod1+Down exec --no-startup-id brightnessctl set 10%- --min-value=15

@@ -1,6 +1,5 @@
 {
     "autocomplete": true,
-    "colorcolumn": 80,
     "colorscheme": "cmc-16",
     "mkparents": true,
     "saveundo": true,
