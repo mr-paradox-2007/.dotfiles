@@ -1,8 +1,8 @@
 # --- Micro Editor Junk ---
 # Ignore internal backups and state files
-micro/backups/
-micro/buffers/
-micro/targets/
+config/micro/backups/
+config/micro/buffers/
+config/micro/targets/
 
 # --- System & OS Junk ---
 # Thumbnail cache (don't sync these with your wallpapers)
