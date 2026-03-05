@@ -1,21 +1,21 @@
 # --- Micro Editor Junk ---
-# Ignore internal backups and state files
-config/micro/backups/
-config/micro/buffers/
-config/micro/targets/
+/config/micro/backups/
+/config/micro/buffers/
+/config/micro/targets/
+
+# --- Oh-My-Zsh Junk ---
+# Ignore the large zcompdump files that Zsh generates on every boot
+.zcompdump*
+.zsh_history
 
 # --- System & OS Junk ---
-# Thumbnail cache (don't sync these with your wallpapers)
 .thumbnails/
 .Thumbnails/
 Thumbs.db
 Desktop.ini
+.DS_Store
 
-# Common Linux trash
+# --- Common Linux trash ---
 *~
 *.swp
 *.tmp
-.DS_Store
-
-# --- Git specifics ---
-.git/
