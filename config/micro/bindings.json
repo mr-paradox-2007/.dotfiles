@@ -1,0 +1,15 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "CtrlUnderscore": "lua:comment.comment",
+    "Alt-d": "lua:lsp.definition",
+    "Alt-f": "lua:lsp.format",
+    "Alt-k": "lua:lsp.hover",
+    "Alt-r": "lua:lsp.references",
+    "CtrlSpace": "lspcompletion",
+    "Alt-n": "lua:filemanager.toggle",
+    "Alt-Right": "NextTab",
+    "Alt-Left": "PreviousTab",
+    "Ctrl-Backspace": "DeleteWordLeft",
+    "Ctrl-H": "DeleteWordLeft",
+    "Ctrl-Delete": "DeleteWordRight"
+}

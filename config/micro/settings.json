@@ -1,0 +1,14 @@
+{
+    "autocomplete": true,
+    "colorcolumn": 80,
+    "colorscheme": "cmc-16",
+    "filemanager.openonstart": true,
+    "filemanager.width": 25,
+    "fzf.fzf_options": "--reverse",
+    "lsp.autocompleteDetails": true,
+    "mkparents": true,
+    "rmtrailingws": true,
+    "saveundo": true,
+    "softwrap": true,
+    "tabstospaces": true
+}
