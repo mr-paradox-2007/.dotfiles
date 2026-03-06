@@ -1,6 +1,6 @@
 {
     "autocomplete": true,
-    "colorscheme": "cmc-16",
+    "colorscheme": "gruvbox-tc",
     "mkparents": true,
     "saveundo": true,
     "softwrap": true,
