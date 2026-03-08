@@ -4,5 +4,6 @@
     "mkparents": true,
     "saveundo": true,
     "softwrap": true,
-    "tabstospaces": true
+    "tabstospaces": true,
+    "clipboard": "external"
 }

@@ -225,3 +225,15 @@ exec --no-startup-id xss-lock -- betterlockscreen -l blur
 
 # Sleep (Win + Shift + S)
 bindsym $mod+Shift+s exec systemctl suspend
+
+# Start CopyQ on login
+exec --no-startup-id copyq
+
+# Use Mod+C to see your clipboard history
+bindsym $mod+c exec --no-startup-id copyq toggle
+
+# Wallpaper Engine
+exec --no-startup-id swww init
+
+# Wallpaper script
+exec_always --no-startup-id ~/.dotfiles/scripts/wallpaper.sh
