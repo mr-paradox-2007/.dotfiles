@@ -232,8 +232,8 @@ exec --no-startup-id copyq
 # Use Mod+C to see your clipboard history
 bindsym $mod+c exec --no-startup-id copyq toggle
 
-# Wallpaper Engine
-exec --no-startup-id swww init
+# Wallpaper
+exec_always --no-startup-id feh --bg-fill ~/.dotfiles/wallpapers/dark-abstract-3840x2160-18134.png
 
-# Wallpaper script
-exec_always --no-startup-id ~/.dotfiles/scripts/wallpaper.sh
+# Picom
+exec_always --no-startup-id picom -b

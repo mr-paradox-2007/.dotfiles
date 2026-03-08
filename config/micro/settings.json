@@ -1,9 +1,8 @@
 {
     "autocomplete": true,
-    "colorscheme": "gruvbox-tc",
+    "colorscheme": "cmc-16",
     "mkparents": true,
     "saveundo": true,
     "softwrap": true,
-    "tabstospaces": true,
-    "clipboard": "external"
+    "tabstospaces": true
 }
