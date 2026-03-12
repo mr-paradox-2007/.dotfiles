@@ -1,0 +1,41 @@
+dir
+cd tc
+dir
+cd INSTAL~1
+INSTALL.EXE
+cd ~
+cd ..
+cd C
+cd PRACTICE/C_PRAC/PRAC1
+tc
+cd PRACTICE/C_PRAC/PRAC1
+tc
+cd PRACTICE
+cd C_PRAC
+cd PRAC1
+tc
+cd PRACTICE\C_PRAC\PRAC1
+tcc -Ic:\tc\lib\include -Lc:\tc\lib PRAC1.C
+dir
+tcc -S -Ic:\tc\lib\include -Lc:\tc\lib PRAC1.C
+tcc -Ic:\tc\lib\include -Lc:\tc\lib PRAC1.C
+tcc
+tc
+tcc -S -Ic:\tc\lib\include -Lc:\tc\lib PRAC1.C
+cd ..
+cd ASM-04
+C:
+cd ASM-04
+dir
+tc -S -Ic:\tc\lib\include -Lc:\tc\lib PRAC1.C
+tcc -S -Ic:\tc\lib\include -Lc:\tc\lib PRAC1.C
+NASM.EXe 24056ASM4.asm -o 24056ASM4.COM -l 24056ASM4.LST
+dir
+NASM.EXe 056ASM4.asm -o 056ASM4.COM -l 056ASM4.LST
+AFD 056ASM4.COM
+tcc .\
+cd PRACTICE
+cd ASM_PRAC
+cd LAB-01
+tcc -S -lc:\tc PRAC1.C
+tcc -S -Ic:\tc\lib\include -Lc:\tc\lib PRAC1.C

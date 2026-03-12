@@ -253,7 +253,7 @@ exec --no-startup-id copyq
 bindsym $mod+c exec --no-startup-id copyq toggle
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/.dotfiles/wallpapers/dark-abstract-3840x2160-18134.png
+exec_always --no-startup-id feh --bg-fill ~/.dotfiles/wallpapers/you-are-my-special/sukuna-action-3840x2160-25100.jpg
 
 # Picom
 exec_always --no-startup-id picom -b
