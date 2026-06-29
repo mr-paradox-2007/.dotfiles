@@ -1,0 +1,9 @@
+# Import your theme (adjust the path to match your actual theme location)
+general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
+
+[font]
+size = 11.0
+normal = { family = "Iosevka Nerd Font", style = "Regular" }
+bold = { family = "Iosevka Nerd Font", style = "SemiBold" }
+italic = { family = "Iosevka Nerd Font", style = "Italic" }
+
