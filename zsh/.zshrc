@@ -106,3 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # Portal Fix
 export XDG_CURRENT_DESKTOP=i3
 export GTK_USE_PORTAL=1
+
+# True Color And Some Stuff
+export COLORTERM=truecolor
+export MICRO_TRUECOLOR=1
