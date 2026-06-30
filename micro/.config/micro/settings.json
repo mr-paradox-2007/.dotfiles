@@ -1,0 +1,15 @@
+{
+    "colorscheme": "everforest",
+    "tabsize": 4,
+    "tabstospaces": true,
+    "softwrap": true,
+    "wordwrap": true,
+    "rmtrailingws": true,
+    "cursorline": true,
+    "statusline": true,
+    "highlightsearching": true
+    "scrollspeed": 2,
+    "ft:go": {
+        "tabstospaces": false
+    }
+}
