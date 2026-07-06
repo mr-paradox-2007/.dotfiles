@@ -1,0 +1,135 @@
+.
+├── alacritty
+│   └── .config
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   ├── objects
+│   │   ├── 09
+│   │   ├── 0b
+│   │   ├── 0e
+│   │   ├── 0f
+│   │   ├── 12
+│   │   ├── 13
+│   │   ├── 1a
+│   │   ├── 25
+│   │   ├── 2b
+│   │   ├── 2c
+│   │   ├── 2f
+│   │   ├── 34
+│   │   ├── 3c
+│   │   ├── 42
+│   │   ├── 43
+│   │   ├── 46
+│   │   ├── 4b
+│   │   ├── 4c
+│   │   ├── 4e
+│   │   ├── 53
+│   │   ├── 55
+│   │   ├── 5b
+│   │   ├── 5f
+│   │   ├── 62
+│   │   ├── 65
+│   │   ├── 66
+│   │   ├── 67
+│   │   ├── 69
+│   │   ├── 6e
+│   │   ├── 6f
+│   │   ├── 72
+│   │   ├── 73
+│   │   ├── 74
+│   │   ├── 79
+│   │   ├── 7a
+│   │   ├── 7b
+│   │   ├── 7e
+│   │   ├── 88
+│   │   ├── 8c
+│   │   ├── 8e
+│   │   ├── 95
+│   │   ├── 96
+│   │   ├── 97
+│   │   ├── 98
+│   │   ├── 99
+│   │   ├── 9e
+│   │   ├── aa
+│   │   ├── ad
+│   │   ├── b4
+│   │   ├── bb
+│   │   ├── bc
+│   │   ├── be
+│   │   ├── c1
+│   │   ├── c5
+│   │   ├── cb
+│   │   ├── cd
+│   │   ├── d9
+│   │   ├── db
+│   │   ├── dd
+│   │   ├── e1
+│   │   ├── e3
+│   │   ├── e4
+│   │   ├── e9
+│   │   ├── ea
+│   │   ├── eb
+│   │   ├── ec
+│   │   ├── ee
+│   │   ├── ef
+│   │   ├── f2
+│   │   ├── f3
+│   │   ├── f5
+│   │   ├── f8
+│   │   ├── ff
+│   │   ├── info
+│   │   └── pack
+│   └── refs
+│       ├── heads
+│       ├── remotes
+│       └── tags
+├── git
+│   └── .gitconfig
+├── .gitignore
+├── gtk
+│   └── .config
+├── home
+│   └── .config
+│       ├── alacritty
+│       ├── gtk-3.0
+│       ├── i3
+│       └── micro
+├── i3
+│   └── .config
+├── micro
+│   └── .config
+├── omz
+│   └── .oh-my-zsh
+│       └── custom
+├── README.md
+├── tree.txt
+├── x11
+│   └── .Xresources
+└── zsh
+    └── .zshrc
+
+106 directories, 27 files
