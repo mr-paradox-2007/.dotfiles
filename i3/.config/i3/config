@@ -23,13 +23,46 @@ font pango:monospace 8
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-# Start the portalsssss
-exec --no-startup-id /usr/lib/xdg-desktop-portal
-exec --no-startup-id /usr/lib/xdg-desktop-portal-gtk
+
+
+
 
 # My startup type shi:
 
+exec --no-startup-id /usr/lib/xdg-desktop-portal
+exec --no-startup-id /usr/lib/xdg-desktop-portal-gtk
+
 exec_always --no-startup-id xrdb -merge ~/.Xresources
+
+exec_always --no-startup-id feh --bg-scale ~/downloads/wallpapers/wallpaper-1.jpg
+
+
+# My bindings
+
+
+
+# Window decor settings
+
+for_window [class = ".*"] border pixel 4
+
+
+# --- Nordic Ice ---
+client.focused           #88C0D0 #88C0D0 #88C0D0 #88C0D0 #88C0D0
+client.focused_inactive  #4C566A #4C566A #4C566A #4C566A #4C566A
+client.unfocused         #3B4252 #3B4252 #3B4252 #3B4252 #3B4252
+
+# --- Gaps ---
+# Set the gap size in pixels
+gaps inner 10
+gaps outer 5
+
+# Optional: Disable gaps when only one window is open
+smart_gaps on
+
+
+
+
+
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -204,6 +237,3 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
-
-# My bindings:
-
