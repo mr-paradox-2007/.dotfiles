@@ -36,6 +36,8 @@ exec_always --no-startup-id xrdb -merge ~/.Xresources
 
 exec_always --no-startup-id feh --bg-scale ~/downloads/wallpapers/wallpaper-1.jpg
 
+# --- Compositor ---
+exec_always --no-startup-id picom
 
 # My bindings
 
