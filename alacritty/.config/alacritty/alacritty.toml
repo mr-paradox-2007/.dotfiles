@@ -5,19 +5,19 @@ general.import = [ "~/.config/omarchy/current/theme/alacritty.toml" ]
 size = 12.0
 
 [font.normal]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "BigBlue TerminalPlus"
 style = "Regular"
 
 [font.bold]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "BigBlue TerminalPlus"
 style = "Regular"
 
 [font.bold_italic]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "BigBlue TerminalPlus"
 style = "Regular"
 
 [font.italic]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "BigBlue TerminalPlus"
 style = "Italic"
 
 [colors.primary]

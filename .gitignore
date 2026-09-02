@@ -1,3 +1,6 @@
 # Just my .gitignore file.
 
 micro/.config/micro/backups
+
+omz/.oh-my-zsh/*
+!omz/.oh-my-zsh/custom/
